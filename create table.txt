@@ -1,0 +1,31 @@
+CREATE TABLE:
+
+CREATE OR REPLACE TABLE loan_table (
+    loan_id          INT,
+    customer_name    STRING,
+    loan_amount      DOUBLE,
+    interest_rate    DOUBLE,
+    loan_term_months INT,
+    loan_type        STRING,
+    loan_status      STRING,
+    start_date       DATE
+);
+
+
+INSERT INTO THE TABLE:
+INSERT INTO loan_table VALUES
+(1, 'John Peter', 50000, 12.5, 24, 'Personal', 'Active', '2023-01-10'),
+(2, 'Grace Mark', 150000, 10.2, 36, 'Mortgage', 'Active', '2022-11-05'),
+(3, 'Samuel John', 30000, 14.0, 18, 'Auto', 'Closed', '2021-05-12'),
+(4, 'Daniel Luke', 80000, 11.8, 48, 'Business', 'Active', '2022-06-20'),
+(5, 'Clara James', 20000, 15.5, 12, 'Personal', 'Default', '2023-03-15'),
+(6, 'Mary Simon', 120000, 9.9, 60, 'Mortgage', 'Active', '2021-12-01'),
+(7, 'Victor Paul', 45000, 13.5, 24, 'Auto', 'Active', '2023-02-01'),
+(8, 'Sarah Dan', 70000, 12.0, 36, 'Business', 'Closed', '2020-10-10'),
+(9, 'Henry Isaac', 25000, 16.0, 12, 'Personal', 'Active', '2023-04-08'),
+(10, 'Joy Samuel', 90000, 11.0, 48, 'Business', 'Active', '2021-09-09'),
+(11, 'Emeka John', 40000, 14.5, 18, 'Auto', 'Closed', '2022-01-15'),
+(12, 'Blessing Paul', 60000, 13.0, 24, 'Personal', 'Active', '2022-05-22'),
+(13, 'Peter Jude', 110000, 10.0, 60, 'Mortgage', 'Active', '2020-03-11'),
+(14, 'Nancy Rose', 35000, 15.8, 12, 'Personal', 'Default', '2023-06-01'),
+(15, 'Chris David', 500000, 9.5, 72, 'Business', 'Active', '2019-12-30');
